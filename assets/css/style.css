@@ -290,9 +290,13 @@ section {
   animation: bounce 4s hover;
 }
 
-.right #info{
-  font-family: 'Montserrat', sans-serif;
+.right {
+  font-family: 'Playfair Display', serif;
   font-size: 20px;
+}
+
+.right h2 {
+  font-family: "Petit Formal Script", cursive;
 }
 
 main #projects {
