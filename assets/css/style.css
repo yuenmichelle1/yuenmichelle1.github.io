@@ -17,7 +17,12 @@
 }
 
 #aboutMe {
-  margin-top: 13px;
+  margin-top: 30px;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+}
+#aboutMe h1 {
+  font-family: "Petit Formal Script", cursive;
 }
 
 html {
@@ -334,7 +339,7 @@ main #projects {
 }
 
 .buttons button {
-  margin: 20px;
+  margin-bottom: 5px;
   padding: 10px;
   color: white;
   background: #70c4af;
