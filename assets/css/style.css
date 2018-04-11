@@ -161,6 +161,13 @@ main h1 {
   color: #fff;
   font-size: 2.5em;
 }
+main h2 {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
 
 .image-container {
   display: inline-block;
