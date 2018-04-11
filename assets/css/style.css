@@ -67,14 +67,14 @@ header {
   color: rgb(151, 14, 42);;
 }
 
-header .greeting {
+/* header .greeting {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: 2;
-}
+} */
 
 header h1 {
   position: relative;
