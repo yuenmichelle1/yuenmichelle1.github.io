@@ -235,7 +235,7 @@ main h1 {
   animation: bounce 4s hover;
 }
 
-#info{
+.right #info{
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
 }
