@@ -235,6 +235,11 @@ main h1 {
   animation: bounce 4s hover;
 }
 
+#info{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
 main #projects {
   display: -webkit-box;
   display: -moz-box;
