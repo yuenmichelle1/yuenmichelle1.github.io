@@ -50,7 +50,7 @@ a:visited {
 }
 
 a:hover {
-  color: orangered;
+  /* : indianred; */
   font-style: oblique;
 }
 
@@ -65,14 +65,9 @@ header {
   color: rgb(151, 14, 42);;
 }
 
-/* header .greeting {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 2;
-} */
+i .fa .fa-plus .fa-lg {
+  color: white;
+}
 
 header h1 {
   position: relative;
@@ -143,11 +138,15 @@ nav a:hover {
   color: white;
 }
 
+navAnchor {
+  color: white;
+}
+
 main {
   z-index: 2;
   padding: 0;
   margin: 0;
-  background: #e89779;
+  background: indianred;
   position: relative;
   height: 110%;
   box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.8);
@@ -192,7 +191,7 @@ main h2 {
 
 .image-banner {
   width: 100%;
-  background-color: coral;
+  background-color: indianred;
   color: white;
   position: relative;
   bottom: 20px;
@@ -207,7 +206,7 @@ section {
   z-index: 2;
   padding: 0;
   margin: 0;
-  background: #e89779;
+  background: indianred;
 }
 
 @-moz-keyframes bounce {
