@@ -1,8 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
-@import url("https://fonts.googleapis.com/css?family=Petit+Formal+Script");
-@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Yeseva+One');
 
 * {
   -webkit-box-sizing: border-box;
@@ -18,11 +16,11 @@
 
 #aboutMe {
   margin-top: 40px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Yeseva One', cursive;
   font-size: 20px;
 }
 #aboutMe h1 {
-  font-family: "Petit Formal Script", cursive;
+  font-family: 'Yeseva One', cursive;;
 }
 
 html {
@@ -34,7 +32,7 @@ html {
 
 body {
   height: 100%;
-  font-family: "Petit Formal Script", cursive;
+  font-family: 'Josefin Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizelegibility;
@@ -84,7 +82,7 @@ header h1 {
   color: rgb(151, 14, 42);
   background-color: white;
   opacity: 0.8;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Yeseva One', cursive;
   font-weight: 900;
   font-size: 2.75em;
   line-height: 1.5;
@@ -291,12 +289,12 @@ section {
 }
 
 .right {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Yeseva One', cursive;
   font-size: 20px;
 }
 
 .right h2 {
-  font-family: "Petit Formal Script", cursive;
+  font-family: 'Yeseva One', cursive;
 }
 
 main #projects {
