@@ -13,7 +13,6 @@ footer {
 .numbers {
   position: fixed;
   z-index: 0;
-  top: 10%;
   height: 100%;
   left: 0;
   text-align: right;
@@ -30,9 +29,9 @@ footer {
 .code {
   position: fixed;
   z-index: 0;
-  top: 12.5%;
+  padding-top: 1%;
   height: 100%;
-  left: 10%;
+  left: 5%;
   text-align: left;
   font-weight: normal;
   color: #ccc;
@@ -79,7 +78,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 475px) {
 
   footer {
     position: relative;
@@ -88,8 +87,8 @@ footer {
   .numbers {
     position: fixed;
     z-index: 0;
-    top: 10%;
     height: 100%;
+    padding-top: 5%;
     padding-left: 10px;
     font-size: 12px;
     display: block;
@@ -98,6 +97,8 @@ footer {
   .code {
     position: fixed;
     z-index: 0;
+    padding-top: 5%;
+    padding-left: 2%;
     height: 100%;
     font-weight: normal;
     color: #ccc;

@@ -402,10 +402,11 @@ h3 {
   border-color: #dddddd;
   color: #777777;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 450px) {
   header h1 {
-    font-size: 2.3em;
+    font-size: 2em;
     letter-spacing: -1px;
+    position: static;
   }
 
   .arrow {
